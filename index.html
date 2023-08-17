@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <link rel="shortcut icon" href=".//icons/icon.png" type="image/x-icon">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Caveat:wght@400;500;600;700&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href=".//css/style.css">
+
+</head>
+<body>
+
+  <!-- #region Navbar -->
+
+  <nav class="navbar navbar-expand-lg border-bottom c-bg-header" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ps-3" href="./index.html"><img src="./icons/icon.png" width="40px" alt=""></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
+          
+          <li class="nav-item">
+            <a class="nav-link ealinks" href="./about.html">About Me</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link ealinks" href="./digitaldoodle.html">Digital Doodle</a>
+          </li>         
+
+          <li class="nav-item">
+            <a class="nav-link ealinks" href="./contact.html">Contact</a>
+          </li>  
+      
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- #endregion Navbar -->
+
+
+  <!-- #region Body -->
+
+  <!-- #region //Intro -->
+  <div class="container py-5">
+    <section class="row">    
+      
+      <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+        <span class="f-font-calistoga intro">Hi, I'm</span>
+        <span class="introname f-font-caveat fw-bold c-text-secondary ps-3">PhiLiP</span>
+      </div>
+      
+      <div class="col-md-6 skills d-flex justify-content-md-end justify-content-center align-items-center">
+        <div>
+          <img class="skillicon" src="./images/html.png" alt="HTML">
+          <img class="skillicon" src="./images/css.png" alt="CSS">
+          <img class="skillicon" src="./images/js.png" alt="Javascript">
+          <img class="skillicon" src="./images/bootstrap.png" alt="Bootstrap">
+        </div>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  
+  <!-- #endregion //Intro -->
+
+  <!-- #region //Photo -->
+  
+  <section class="container">
+    <div class="row">
+
+      <div class="col-md-6">
+        <img src="./images/selfie.png" alt="" class="img-fluid col" style="width: 500px;">
+      </div>
+
+      <div class="col-md-6 d-flex align-items-center py-5">
+        <div class="row ">
+          <div class="">
+            <p class="c-text-primary fs-3">Frontend Developer explorer, delving into the world of code and venturing into the realms of responsive design.</p>
+          </div>
+
+          <div class="d-flex justify-content-center pb-5">
+            <a type="button" class="btn btn-outline btn-lg" href="./about.html">Learn More About Me!</a>
+          </div>
+          
+          <section>
+            <div class="d-flex justify-content-center">
+              <a href=".//files/CV.pdf" target="_blank">
+                <button type="button" class="btn c-bg-white btn-white fs-5 c-text-accent rounded-5 px-4 py-2 f-font-body">Download CV <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                </svg></button>
+        </div>
+          </div>
+          
+      </section>
+
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- #endregion //Photo -->
+
+  <!-- #region //Download -->
+
+  <div class="container">
+
+  </div>
+
+  <!-- #endregion //Download -->
+
+  <!-- #endregion Body -->
+  
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
